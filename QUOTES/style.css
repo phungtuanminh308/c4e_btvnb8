@@ -1,0 +1,116 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh- 80px);
+}
+.content--quote {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+.content--img {
+    display: block;
+    width: 50vw;
+    height: auto;
+    max-height: calc(100vh - 80px);
+}
+.content--quote__bluricon {
+    font-size: 120px;
+    padding-left: 60px;
+    height: 100px;
+    font-family: "Secular One", serif;
+    opacity: 0.25;
+    z-index: 2;
+}
+.content--quote__descript {
+    font-size: 50px;
+    padding-left: 60px;
+    font-family: 'Playfair Display', serif;
+    z-index: 2;
+}
+.quote--logo__big{
+    font-size: 90px;
+    font-family: "Secular One", serif;
+    color: #69456C;
+    height: 100px;
+    z-index: 2;
+}
+.quote--logo__small {
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    color: black;
+    z-index: 2;
+}
+.content--quote__logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position:absolute;
+    top: 20px;
+    left: 60px;
+    z-index: 2;
+}
+.content--quote__author {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 60px;
+    font-family: "Secular One", serif;
+    z-index: 2;
+}
+.quote--author__avatar {
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    margin-right: 10px;
+    z-index: 2;
+}
+.other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #68466B;
+    height: 80px;
+}
+.other--button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-family: "Montserrat", serif;
+    color: #68466B;
+    cursor: pointer;
+}
+.other--button:hover {
+    color: white;
+    background-color: #68466B;
+    border-color: white;
+    border-width: 3px;
+}
+.other--share {
+    font-family: "Montserrat", serif;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.other--share__icon {
+    margin: 20px;
+    transition: 0.1s;
+}
+.other--share__icon:hover {
+    color: teal;
+    transform: scale(3);
+    transition: 0.25s;
+}
+.other--display {
+    padding-right: 60px;
+    font-family: "Montserrat", serif;
+    color: white;
+    display: flex;
+}
+.other--display__share{
+    margin: 5px;
+}

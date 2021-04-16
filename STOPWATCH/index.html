@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="content--input" id="input">
+            <div class="content--input__text">Insert second:</div>
+            <input class="content--input__value" type="number" name="input" value="Insert second:">
+            <input class="content--input__submit" type="submit" value="Start" onclick="start()">
+        </div>
+        <div class="content--count" id="count">##</div>
+        <button class="content--stop" id="stop" type="button" onclick="stop()">STOP</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

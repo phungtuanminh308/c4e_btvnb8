@@ -1,0 +1,60 @@
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    background-color:#F2F2F2 ;
+}
+.content--input {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.content--stop {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #FA7D00;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    box-shadow: 0px 0px 100px -5px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.content--count {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 200px;
+}
+.content--input__submit {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #FA7D00;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    box-shadow: 0px 0px 100px -5px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.content--input__value {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 20px;
+    width: 100px;;
+    margin: 20px;
+    border-radius: 10px;
+    color: #FA7D00;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    box-shadow: 0px 0px 100px -5px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
